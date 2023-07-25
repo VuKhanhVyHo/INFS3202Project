@@ -1,0 +1,48 @@
+#banner.instructors{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+.image {
+    flex: 0 0 auto;
+    margin-right: 20px; /* Adjust this value to space the image and info apart */
+  }
+  
+.image img {
+    margin-left:10%;
+    margin-top: 7%;
+    max-width: 500px;
+}
+  
+.info {
+    flex: 2 1;
+    right: 0;
+  }
+
+
+.nav-menu-course nav {
+  color: #fff;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu-course nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu-course nav li {
+  margin: 0 10px;
+}
+
+.nav-menu-course nav a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+

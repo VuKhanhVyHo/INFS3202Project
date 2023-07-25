@@ -1,0 +1,999 @@
+CRITICAL - 2023-05-13 11:42:44 --> Undefined variable $check
+in APPPATH/Controllers/Receipt.php on line 16.
+ 1 APPPATH/Controllers/Receipt.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 11:43:49 --> Class "TCPDF" not found
+in APPPATH/Controllers/Receipt.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 11:52:50 --> Class "TCPDF" not found
+in APPPATH/Controllers/Receipt.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 11:52:52 --> Class "TCPDF" not found
+in APPPATH/Controllers/Receipt.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 11:53:17 --> Class "App\Controllers\TCPDF" not found
+in APPPATH/Controllers/Receipt.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 11:53:20 --> Class "App\Controllers\TCPDF" not found
+in APPPATH/Controllers/Receipt.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 11:54:34 --> Class "app\Libraries\TCPDF" not found
+in APPPATH/Controllers/Receipt.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 11:55:02 --> Class "demo\app\Libraries\TCPDF" not found
+in APPPATH/Controllers/Receipt.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 11:55:19 --> Class "CodeIgniter\Libraries\TCPDF" not found
+in APPPATH/Controllers/Receipt.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 11:58:35 --> require_once(TCPDF/tcpdf.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Receipt.php on line 12.
+ 1 APPPATH/Controllers/Receipt.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Receipt.php(12): require_once()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 11:58:51 --> require_once(Libraries/TCPDF/tcpdf.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Receipt.php on line 12.
+ 1 APPPATH/Controllers/Receipt.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Receipt.php(12): require_once()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 11:59:19 --> Class "App\Controllers\TCPDF" not found
+in APPPATH/Controllers/Receipt.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 11:59:20 --> Class "App\Controllers\TCPDF" not found
+in APPPATH/Controllers/Receipt.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 11:59:20 --> Class "App\Controllers\TCPDF" not found
+in APPPATH/Controllers/Receipt.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 11:59:40 --> Class "App\Controllers\TCPDF" not found
+in APPPATH/Controllers/Receipt.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:02:41 --> Class "App\Controllers\TCPDF" not found
+in APPPATH/Controllers/Receipt.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:02:44 --> Class "App\Controllers\TCPDF" not found
+in APPPATH/Controllers/Receipt.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:05:25 --> Class "Libraries\TCPDF" not found
+in APPPATH/Controllers/Receipt.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:06:44 --> strpos(): Argument #1 ($haystack) must be of type string, TCPDF given
+in SYSTEMPATH/Email/Email.php on line 657.
+ 1 SYSTEMPATH/Email/Email.php(657): strpos()
+ 2 APPPATH/Controllers/Receipt.php(56): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:07:35 --> fopen(): Argument #1 ($filename) must not contain any null bytes
+in SYSTEMPATH/Email/Email.php on line 663.
+ 1 SYSTEMPATH/Email/Email.php(663): fopen()
+ 2 APPPATH/Controllers/Receipt.php(56): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:08:52 --> fopen(): Argument #1 ($filename) must not contain any null bytes
+in SYSTEMPATH/Email/Email.php on line 663.
+ 1 SYSTEMPATH/Email/Email.php(663): fopen()
+ 2 APPPATH/Controllers/Receipt.php(56): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:09:27 --> fopen(): Argument #1 ($filename) must not contain any null bytes
+in SYSTEMPATH/Email/Email.php on line 663.
+ 1 SYSTEMPATH/Email/Email.php(663): fopen()
+ 2 APPPATH/Controllers/Receipt.php(56): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:09:30 --> fopen(): Argument #1 ($filename) must not contain any null bytes
+in SYSTEMPATH/Email/Email.php on line 663.
+ 1 SYSTEMPATH/Email/Email.php(663): fopen()
+ 2 APPPATH/Controllers/Receipt.php(56): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:11:48 --> fopen(): Argument #1 ($filename) must not contain any null bytes
+in SYSTEMPATH/Email/Email.php on line 663.
+ 1 SYSTEMPATH/Email/Email.php(663): fopen()
+ 2 APPPATH/Controllers/Receipt.php(58): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:12:40 --> fopen(): Argument #1 ($filename) must not contain any null bytes
+in SYSTEMPATH/Email/Email.php on line 663.
+ 1 SYSTEMPATH/Email/Email.php(663): fopen()
+ 2 APPPATH/Controllers/Receipt.php(58): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:15:51 --> fopen(): Argument #1 ($filename) must not contain any null bytes
+in SYSTEMPATH/Email/Email.php on line 663.
+ 1 SYSTEMPATH/Email/Email.php(663): fopen()
+ 2 APPPATH/Controllers/Receipt.php(58): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:15:53 --> fopen(): Argument #1 ($filename) must not contain any null bytes
+in SYSTEMPATH/Email/Email.php on line 663.
+ 1 SYSTEMPATH/Email/Email.php(663): fopen()
+ 2 APPPATH/Controllers/Receipt.php(58): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:16:42 --> fopen(): Argument #1 ($filename) must not contain any null bytes
+in SYSTEMPATH/Email/Email.php on line 663.
+ 1 SYSTEMPATH/Email/Email.php(663): fopen()
+ 2 APPPATH/Controllers/Receipt.php(58): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:16:44 --> fopen(): Argument #1 ($filename) must not contain any null bytes
+in SYSTEMPATH/Email/Email.php on line 663.
+ 1 SYSTEMPATH/Email/Email.php(663): fopen()
+ 2 APPPATH/Controllers/Receipt.php(58): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:18:00 --> fopen(): Argument #1 ($filename) must not contain any null bytes
+in SYSTEMPATH/Email/Email.php on line 663.
+ 1 SYSTEMPATH/Email/Email.php(663): fopen()
+ 2 APPPATH/Controllers/Receipt.php(58): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:18:13 --> fopen(): Argument #1 ($filename) must not contain any null bytes
+in SYSTEMPATH/Email/Email.php on line 663.
+ 1 SYSTEMPATH/Email/Email.php(663): fopen()
+ 2 APPPATH/Controllers/Receipt.php(58): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:18:14 --> fopen(): Argument #1 ($filename) must not contain any null bytes
+in SYSTEMPATH/Email/Email.php on line 663.
+ 1 SYSTEMPATH/Email/Email.php(663): fopen()
+ 2 APPPATH/Controllers/Receipt.php(58): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:18:14 --> fopen(): Argument #1 ($filename) must not contain any null bytes
+in SYSTEMPATH/Email/Email.php on line 663.
+ 1 SYSTEMPATH/Email/Email.php(663): fopen()
+ 2 APPPATH/Controllers/Receipt.php(58): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:18:14 --> fopen(): Argument #1 ($filename) must not contain any null bytes
+in SYSTEMPATH/Email/Email.php on line 663.
+ 1 SYSTEMPATH/Email/Email.php(663): fopen()
+ 2 APPPATH/Controllers/Receipt.php(58): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:18:14 --> fopen(): Argument #1 ($filename) must not contain any null bytes
+in SYSTEMPATH/Email/Email.php on line 663.
+ 1 SYSTEMPATH/Email/Email.php(663): fopen()
+ 2 APPPATH/Controllers/Receipt.php(58): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:19:59 --> Call to undefined method TCPDF::getError()
+in APPPATH/Controllers/Receipt.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:20:00 --> Call to undefined method TCPDF::getError()
+in APPPATH/Controllers/Receipt.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:38:15 --> Class "TCPDF" not found
+in APPPATH/Controllers/Receipt.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:20:30 --> fopen(): Argument #1 ($filename) must not contain any null bytes
+in SYSTEMPATH/Email/Email.php on line 663.
+ 1 SYSTEMPATH/Email/Email.php(663): fopen()
+ 2 APPPATH/Controllers/Receipt.php(43): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:22:28 --> strpos(): Argument #1 ($haystack) must be of type string, TCPDF given
+in SYSTEMPATH/Email/Email.php on line 657.
+ 1 SYSTEMPATH/Email/Email.php(657): strpos()
+ 2 APPPATH/Controllers/Receipt.php(42): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:22:51 --> strpos(): Argument #1 ($haystack) must be of type string, TCPDF given
+in SYSTEMPATH/Email/Email.php on line 657.
+ 1 SYSTEMPATH/Email/Email.php(657): strpos()
+ 2 APPPATH/Controllers/Receipt.php(42): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:24:19 --> strpos(): Argument #1 ($haystack) must be of type string, TCPDF given
+in SYSTEMPATH/Email/Email.php on line 657.
+ 1 SYSTEMPATH/Email/Email.php(657): strpos()
+ 2 APPPATH/Controllers/Receipt.php(42): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:24:56 --> strpos(): Argument #1 ($haystack) must be of type string, TCPDF given
+in SYSTEMPATH/Email/Email.php on line 657.
+ 1 SYSTEMPATH/Email/Email.php(657): strpos()
+ 2 APPPATH/Controllers/Receipt.php(42): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:25:05 --> fopen(): Argument #1 ($filename) must not contain any null bytes
+in SYSTEMPATH/Email/Email.php on line 663.
+ 1 SYSTEMPATH/Email/Email.php(663): fopen()
+ 2 APPPATH/Controllers/Receipt.php(42): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:26:55 --> fopen(): Argument #1 ($filename) must not contain any null bytes
+in SYSTEMPATH/Email/Email.php on line 663.
+ 1 SYSTEMPATH/Email/Email.php(663): fopen()
+ 2 APPPATH/Controllers/Receipt.php(42): CodeIgniter\Email\Email->attach()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:28:03 --> fopen(): Remote host file access not supported, file://Receipt.pdf
+in APPPATH/TCPDF/include/tcpdf_static.php on line 1811.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/TCPDF/include/tcpdf_static.php(1811): fopen()
+ 3 APPPATH/TCPDF/tcpdf.php(7763): TCPDF_STATIC::fopenLocal()
+ 4 APPPATH/Controllers/Receipt.php(41): TCPDF->Output()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:28:47 --> fopen(file:///var/www/htdocs/demo/writable/pdf/Receipt.pdf): Failed to open stream: No such file or directory
+in APPPATH/TCPDF/include/tcpdf_static.php on line 1811.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/TCPDF/include/tcpdf_static.php(1811): fopen()
+ 3 APPPATH/TCPDF/tcpdf.php(7763): TCPDF_STATIC::fopenLocal()
+ 4 APPPATH/Controllers/Receipt.php(42): TCPDF->Output()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Receipt->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 15:24:05 --> Undefined variable $results
+in APPPATH/Views/cart.php on line 7.
+ 1 APPPATH/Views/cart.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 15:24:22 --> Undefined variable $results
+in APPPATH/Views/cart.php on line 7.
+ 1 APPPATH/Views/cart.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 15:24:24 --> Undefined variable $results
+in APPPATH/Views/cart.php on line 7.
+ 1 APPPATH/Views/cart.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 15:24:44 --> Invalid file: "Views/footer.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Cart.php(11): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 15:24:45 --> Invalid file: "Views/footer.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Cart.php(11): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 16:24:54 --> Undefined variable $search
+in APPPATH/Models/cartModel.php on line 13.
+ 1 APPPATH/Models/cartModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Cart.php(9): App\Models\Search_model->getSearch()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 16:25:50 --> Undefined variable $results
+in APPPATH/Views/cart.php on line 6.
+ 1 APPPATH/Views/cart.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 16:26:22 --> Undefined variable $results
+in APPPATH/Views/cart.php on line 6.
+ 1 APPPATH/Views/cart.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 16:53:04 --> Undefined property: stdClass::$courseCode
+in APPPATH/Views/cart.php on line 8.
+ 1 APPPATH/Views/cart.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:06:02 --> Attempt to read property "totalPay" on array
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:09:59 --> Undefined property: stdClass::$courseCode
+in APPPATH/Views/cart.php on line 8.
+ 1 APPPATH/Views/cart.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:10:44 --> Undefined property: stdClass::$courseCode
+in APPPATH/Views/cart.php on line 8.
+ 1 APPPATH/Views/cart.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:16:08 --> Attempt to read property "totalPay" on array
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:16:18 --> Attempt to read property "totalPay" on array
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:21:06 --> Attempt to read property "courseCode" on array
+in APPPATH/Views/cart.php on line 8.
+ 1 APPPATH/Views/cart.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:21:40 --> Undefined array key "courseCode"
+in APPPATH/Views/cart.php on line 8.
+ 1 APPPATH/Views/cart.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:23:32 --> Attempt to assign property "results" on null
+in APPPATH/Models/cartModel.php on line 25.
+ 1 APPPATH/Controllers/Cart.php(9): App\Models\Search_model->getSearch()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:23:55 --> view(): Argument #2 ($data) must be of type array, null given, called in /var/www/htdocs/demo/app/Controllers/Cart.php on line 11
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Cart.php(11): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-13 17:24:07 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'demo.Cart.courseCode' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/cartModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/demo/app/Controllers/Cart.php(9): App\Models\Search_model->getSearch()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Cart->index()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-13 17:24:07 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'demo.Cart.courseCode' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/cartModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Cart.php(9): App\Models\Search_model->getSearch()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:24:18 --> Undefined variable $results
+in APPPATH/Views/cart.php on line 6.
+ 1 APPPATH/Views/cart.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(11): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:24:19 --> Undefined variable $results
+in APPPATH/Views/cart.php on line 6.
+ 1 APPPATH/Views/cart.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(11): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:24:54 --> view(): Argument #2 ($data) must be of type array, int given, called in /var/www/htdocs/demo/app/Controllers/Cart.php on line 13
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Cart.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:25:12 --> view(): Argument #2 ($data) must be of type array, int given, called in /var/www/htdocs/demo/app/Controllers/Cart.php on line 13
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Cart.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:25:13 --> view(): Argument #2 ($data) must be of type array, int given, called in /var/www/htdocs/demo/app/Controllers/Cart.php on line 13
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Cart.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:25:23 --> Undefined variable $results
+in APPPATH/Views/cart.php on line 6.
+ 1 APPPATH/Views/cart.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:25:47 --> view(): Argument #3 ($options) must be of type array, int given, called in /var/www/htdocs/demo/app/Controllers/Cart.php on line 13
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Cart.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:27:18 --> Undefined variable $temp
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:29:34 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:29:34 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:29:35 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:29:48 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:29:48 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:29:49 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:29:49 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:29:50 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:32:30 --> view(): Argument #3 ($options) must be of type array, null given, called in /var/www/htdocs/demo/app/Controllers/Cart.php on line 13
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Cart.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:32:31 --> view(): Argument #3 ($options) must be of type array, null given, called in /var/www/htdocs/demo/app/Controllers/Cart.php on line 13
+in SYSTEMPATH/Common.php on line 1172.
+ 1 APPPATH/Controllers/Cart.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:33:40 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Cart.php on line 13.
+ 1 APPPATH/Controllers/Cart.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:33:41 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Cart.php on line 13.
+ 1 APPPATH/Controllers/Cart.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:33:42 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Cart.php on line 13.
+ 1 APPPATH/Controllers/Cart.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:33:43 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Cart.php on line 13.
+ 1 APPPATH/Controllers/Cart.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:33:43 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Cart.php on line 13.
+ 1 APPPATH/Controllers/Cart.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:33:58 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:33:59 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:34:00 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:35:34 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:35:35 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:35:36 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:36:13 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:36:14 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:39:39 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:39:40 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:39:49 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:39:50 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:40:17 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:40:17 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:40:18 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:40:26 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:40:26 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:40:27 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:40:27 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:40:27 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:40:36 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 17:40:37 --> Undefined variable $totalPay
+in APPPATH/Views/cart.php on line 14.
+ 1 APPPATH/Views/cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cart.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Cart.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Cart->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

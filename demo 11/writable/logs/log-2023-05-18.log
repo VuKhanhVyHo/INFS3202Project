@@ -1,0 +1,110 @@
+CRITICAL - 2023-05-18 04:20:55 --> Attempt to read property "image" on null
+in APPPATH/Views/userProfile.php on line 4.
+ 1 APPPATH/Views/userProfile.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/userProfile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/UserProfile.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserProfile->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 04:48:00 --> Trying to access array offset on value of type null
+in APPPATH/Models/User_model.php on line 17.
+ 1 APPPATH/Models/User_model.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(43): App\Models\User_model->login()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 05:13:26 --> password_hash() expects at least 2 arguments, 1 given
+in APPPATH/Controllers/UserProfile.php on line 20.
+ 1 APPPATH/Controllers/UserProfile.php(20): password_hash()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserProfile->update()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 05:14:04 --> password_hash(): Argument #2 ($algo) must be a valid password hashing algorithm
+in APPPATH/Controllers/UserProfile.php on line 20.
+ 1 APPPATH/Controllers/UserProfile.php(20): password_hash()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserProfile->update()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 05:14:18 --> password_hash(): Argument #2 ($algo) must be a valid password hashing algorithm
+in APPPATH/Controllers/UserProfile.php on line 20.
+ 1 APPPATH/Controllers/UserProfile.php(20): password_hash()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserProfile->update()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 05:18:28 --> Undefined array key 2
+in APPPATH/Models/User_model.php on line 18.
+ 1 APPPATH/Models/User_model.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(43): App\Models\User_model->login()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 05:25:13 --> syntax error, unexpected token "return", expecting "function" or "const"
+in APPPATH/Models/User_model.php on line 22.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(155): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(125): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(86): CodeIgniter\Config\Factories::__callStatic()
+ 7 SYSTEMPATH/Common.php(829): CodeIgniter\Config\Factories::models()
+ 8 APPPATH/Controllers/Login.php(42): model()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 05:25:45 --> Attempt to read property "image" on null
+in APPPATH/Views/userProfile.php on line 4.
+ 1 APPPATH/Views/userProfile.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/userProfile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/UserProfile.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserProfile->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 11:13:27 --> Undefined property: stdClass::$AvgRating
+in APPPATH/Views/dashboard.php on line 50.
+ 1 APPPATH/Views/dashboard.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Dashboard->Rating()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 11:38:12 --> Undefined variable $buidler
+in APPPATH/Models/Dashboard_model.php on line 30.
+ 1 APPPATH/Models/Dashboard_model.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(31): App\Models\Search_model->rate()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Dashboard->rate()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:53:24 --> Invalid file: "email_form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/EmailController.php(67): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\EmailController->send()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:54:54 --> Invalid file: "email_form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/EmailController.php(67): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\EmailController->send()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

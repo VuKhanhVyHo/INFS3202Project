@@ -1,0 +1,89 @@
+CRITICAL - 2023-05-09 15:05:53 --> Undefined variable $mvs
+in APPPATH/Views/courses.php on line 67.
+ 1 APPPATH/Views/courses.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/courses.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Searchbox.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Searchbox->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 15:12:59 --> Undefined variable $courseCode
+in APPPATH/Views/courses.php on line 67.
+ 1 APPPATH/Views/courses.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/courses.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Searchbox.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Searchbox->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 15:18:28 --> Undefined variable $results
+in APPPATH/Views/courses.php on line 66.
+ 1 APPPATH/Views/courses.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/courses.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Searchbox.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Searchbox->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 15:20:26 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /var/www/htdocs/demo/app/Models/Search_model.php on line 13
+in SYSTEMPATH/Database/BaseBuilder.php on line 984.
+ 1 APPPATH/Models/Search_model.php(13): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Searchbox.php(25): App\Models\Search_model->getSearchResults()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Searchbox->getcourse()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 15:20:40 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /var/www/htdocs/demo/app/Models/Search_model.php on line 13
+in SYSTEMPATH/Database/BaseBuilder.php on line 984.
+ 1 APPPATH/Models/Search_model.php(13): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Searchbox.php(25): App\Models\Search_model->getSearchResults()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Searchbox->getcourse()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 15:21:08 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /var/www/htdocs/demo/app/Models/Search_model.php on line 13
+in SYSTEMPATH/Database/BaseBuilder.php on line 984.
+ 1 APPPATH/Models/Search_model.php(13): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Searchbox.php(25): App\Models\Search_model->getSearchResults()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Searchbox->getcourse()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 15:22:29 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /var/www/htdocs/demo/app/Models/Search_model.php on line 13
+in SYSTEMPATH/Database/BaseBuilder.php on line 984.
+ 1 APPPATH/Models/Search_model.php(13): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Searchbox.php(25): App\Models\Search_model->getSearchResults()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Searchbox->getcourse()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 15:24:05 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /var/www/htdocs/demo/app/Models/Search_model.php on line 13
+in SYSTEMPATH/Database/BaseBuilder.php on line 984.
+ 1 APPPATH/Models/Search_model.php(13): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Searchbox.php(25): App\Models\Search_model->getSearchResults()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Searchbox->getcourse()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 15:26:22 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /var/www/htdocs/demo/app/Models/Search_model.php on line 13
+in SYSTEMPATH/Database/BaseBuilder.php on line 984.
+ 1 APPPATH/Models/Search_model.php(13): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Searchbox.php(25): App\Models\Search_model->getSearchResults()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Searchbox->getcourse()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 15:27:14 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /var/www/htdocs/demo/app/Models/Search_model.php on line 13
+in SYSTEMPATH/Database/BaseBuilder.php on line 984.
+ 1 APPPATH/Models/Search_model.php(13): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Searchbox.php(25): App\Models\Search_model->getSearchResults()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Searchbox->getcourse()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
